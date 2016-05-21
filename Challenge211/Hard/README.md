@@ -1,4 +1,4 @@
-My solution in rustc 1.0.0-beta (9854143cb 2015-04-02)  to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/33ow0c/20150424_challenge_211_hard_hungry_puppies/) (written by [u/Blackshell](https://www.reddit.com/user/Blackshell)).
+My solution in rustc 1.0.0-beta (9854143cb 2015-04-02)  to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/33ow0c/20150424_challenge_211_hard_hungry_puppies/) (problem by [u/Blackshell](https://www.reddit.com/user/Blackshell)).
 
 Outputs to challenge input (all generated in under 1 second):
 
