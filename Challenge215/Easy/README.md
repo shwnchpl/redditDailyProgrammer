@@ -1,6 +1,6 @@
 My solution in x86_64 assembly (using libc for printf and scanf) to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/36cyxf/20150518_challenge_215_easy_sad_cycles/) (problem by [u/Elite6809](https://www.reddit.com/user/Elite6809)).    
 
-Can be assembled and linked with the commands on 64-bit Linux:
+Can be assembled and linked with the following commands on 64-bit Linux:
 
     nasm -f elf64 ./SadCycles.asm
     gcc -o ./SadCycles ./SadCycles.o
