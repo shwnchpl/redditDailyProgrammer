@@ -5,7 +5,7 @@ Can be assembled and linked with the following commands on 64-bit Linux:
     nasm -f elf64 ./SadCycles.asm
     gcc -o ./SadCycles ./SadCycles.o
     
-Theoretically, since relies on libc for IO calls, it should be somewhat portable to other operating systems.
+Theoretically, since relies on libc for IO calls, it should be somewhat portable to other 64-bit operating systems with libc.
 
 Outputs:
 
