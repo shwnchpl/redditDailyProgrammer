@@ -1,0 +1,1 @@
+My solution in rustc 1.0.0-beta (9854143cb 2015-04-02) (built 2015-04-02) to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/358pfk/20150508_challenge_213_hard_stepstring_discrepancy/) (problem by [u/Cosmologicon](https://www.reddit.com/user/Cosmologicon)).
