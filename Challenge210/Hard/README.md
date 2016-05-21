@@ -1,1 +1,1 @@
-My solution in rustc 1.0.0-beta (9854143cb 2015-04-02) (built 2015-04-02) to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/32vlg8/20150417_challenge_210_hard_loopy_robots/) (written by [u/hutsboR](https://www.reddit.com/user/hutsboR)).
+My solution in rustc 1.0.0-beta (9854143cb 2015-04-02) (built 2015-04-02) to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/32vlg8/20150417_challenge_210_hard_loopy_robots/) (problem by [u/hutsboR](https://www.reddit.com/user/hutsboR)).
