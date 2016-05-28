@@ -2,7 +2,7 @@ My heavily engineered solution in Java to [this problem](https://www.reddit.com/
 
 #### Overview
 
-The solution I've developed is highly multi-threaded and relatively scalable.  The code makes use of a PriorityQueue based system for both console and client/server IO.  Thus far, I've employed a relatively simple protocol in which server keywords are distinguished from regular messages by the client.
+The solution I've developed is highly multi-threaded and relatively scalable.  The server makes use of a PriorityQueue based system for both console and client/server IO.  Thus far, I've employed a relatively simple protocol in which server keywords are distinguished from regular messages by the client.
 
 #### Key Features
 
