@@ -1,4 +1,4 @@
-My heavily engineered solution in Java to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/4knivr/20160523_challenge_268_easy_network_and_cards/) (problem by [u/smapti](https://www.reddit.com/user/fvandepitte)).
+My heavily engineered solution in Java to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/4knivr/20160523_challenge_268_easy_network_and_cards/) (problem by [u/fvandepitte](https://www.reddit.com/user/fvandepitte)).
 
 #### Overview
 
