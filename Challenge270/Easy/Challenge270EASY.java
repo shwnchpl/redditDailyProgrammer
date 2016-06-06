@@ -10,10 +10,10 @@ public class Challenge270EASY {
 		int maxLen = 0;
 		
 		String[] inputArray = (new BufferedReader(
-									new InputStreamReader(System.in)))
-										.lines()
-										.collect(Collectors.toList())
-										.toArray(new String[0]);
+					new InputStreamReader(System.in)))
+						.lines()
+						.collect(Collectors.toList())
+						.toArray(new String[0]);
 		
 		for(String s : inputArray) if(s.length() > maxLen) maxLen = s.length();
 
