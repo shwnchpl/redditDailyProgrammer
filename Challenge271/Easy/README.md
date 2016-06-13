@@ -1,0 +1,1 @@
+My solution in Java to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/4nvrnx/20160613_challenge_271_easy_critical_hit/) (problem by [u/voidfunction](https://www.reddit.com/user/voidfunction)).
