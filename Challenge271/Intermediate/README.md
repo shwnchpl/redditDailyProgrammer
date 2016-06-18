@@ -1,6 +1,7 @@
 My solution in Java to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/4o74p3/20160615_challenge_271_intermediate_making_waves/) (problem by [u/G33kDude](https://www.reddit.com/user/G33kDude)).
 
-Usage:
+
+Can be run by passing arguments in the following format:
 
     java WaveGen.Main <sample rate> <note duration> <note string> [wave form]
 
@@ -23,7 +24,7 @@ would generate an 8000 hertz sample rate wav file containing the notes c4, D4, E
 
 could be run to play the wav file generated immediately without saivng it.
 
-aPopularTune.wav was generated with the following arguments (manually word-wrapped for readability):
+[This file](http://vocaroo.com/i/s0YW8TyviKJD) was generated with the following arguments (manually word-wrapped for readability):
 
     $ java WaveGen.Main 44100 300 "C4 A3 _  A3 C4 D4 G3 _ _ _ G4 A4 Bb4 F5 _
        F5 E5 C5 D5 C5 Bb4 A4 _ _ _ C5 D5 D5 D5 _ D5 G5 F5 E5 F5 D5 C5 _ _ _
