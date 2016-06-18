@@ -1,9 +1,9 @@
 My solution in Java to [this problem](https://www.reddit.com/r/dailyprogrammer/comments/4o74p3/20160615_challenge_271_intermediate_making_waves/) (problem by [u/G33kDude](https://www.reddit.com/user/G33kDude)).
 
 
-Can be run by passing arguments in the following format:
+Can be run as follows:
 
-    java WaveGen.Main <sample rate> <note duration> <note string> [wave form]
+    $ java WaveGen.Main <sample rate> <note duration> <note string> [wave form]
 
 Sample rate is in hertz and note duration is in milliseconds.  Note string should be formatted "A4 Bb4 F#6" etc. with "_" or any non-note character used to indicate a rest.  Wave form defaults to sinusoidal if no input is specified.  Supported wave forms are
 
