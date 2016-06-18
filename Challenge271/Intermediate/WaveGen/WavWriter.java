@@ -36,7 +36,7 @@ public class WavWriter {
 		System.arraycopy(shortToByteArr((short)1), 0, header, 20, 2);   // PCM format
 		System.arraycopy(shortToByteArr((short)1), 0, header, 22, 2);   // one channel
 		System.arraycopy(intToByteArr(sr), 0, header, 24, 4);
-		System.arraycopy(intToByteArr(sr * 2), 0, header, 28, 4); 		// for 1 channel and 16bits per sample
+		System.arraycopy(intToByteArr(sr * 2), 0, header, 28, 4); 	// for 1 channel and 16bits per sample
 		System.arraycopy(shortToByteArr((short)2), 0, header, 32, 2); 	// bits per sample * channels / 8
 		System.arraycopy(shortToByteArr((short)16), 0, header, 34, 2);
 		System.arraycopy("data".getBytes(), 0, header, 36, 4);
