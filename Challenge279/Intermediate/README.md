@@ -96,6 +96,8 @@ Sample input and output:
 
 Some of the building-block functions used in the program demonstrated in a GHCI session:
 
+#####splitOn*
+
     Prelude> :l justify.hs 
     [1 of 1] Compiling Main             ( justify.hs, interpreted )
     Ok, modules loaded: Main.
@@ -121,6 +123,10 @@ Some of the building-block functions used in the program demonstrated in a GHCI 
     *Main> splitOnSubNearest "|" (-200000) exampleString 
     ("This ","% is an #| example so &% foo, bar, b%az, and whatnot.")
     
+    *Main> splitOnSubNearest "NOTINTHERE" 0 exampleString 
+    ("This |% is an #| example so &% foo, bar, b%az, and whatnot.","")
+
+##### padStrTo    
     
     *Main> :t padStrTo
     padStrTo :: Int -> String -> String
@@ -140,6 +146,7 @@ Some of the building-block functions used in the program demonstrated in a GHCI 
     *Main> padStrTo (-500) exampleString 
     "This |% is an #| example so &% foo, bar, b%az, and whatnot."
     
+#####smartWrap    
     
     *Main> :t smartWrap 
     smartWrap :: Int -> String -> String
