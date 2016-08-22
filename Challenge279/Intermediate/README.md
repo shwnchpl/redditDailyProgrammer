@@ -121,3 +121,86 @@ Some of the building-block functions used in the program demonstrated in a GHCI 
     *Main> splitOnSubNearest "|" (-200000) exampleString 
     ("This ","% is an #| example so &% foo, bar, b%az, and whatnot.")
     
+    
+    *Main> :t padStrTo
+    padStrTo :: Int -> String -> String
+    
+    *Main> padStrTo 20 exampleString 
+    "This |% is an #| example so &% foo, bar, b%az, and whatnot."
+    
+    *Main> padStrTo 100 exampleString 
+    "This   |%    is    an    #|    example    so    &%      foo,     bar,     b%az,     and     whatnot."
+    
+    *Main> padStrTo 80 exampleString 
+    "This  |%  is  an  #|   example   so   &%    foo,   bar,   b%az,   and   whatnot."
+    
+    *Main> padStrTo 1000 exampleString 
+    "This |% is an #| example so &% foo, bar, b%az, and whatnot."
+    
+    *Main> padStrTo (-500) exampleString 
+    "This |% is an #| example so &% foo, bar, b%az, and whatnot."
+    
+    
+    *Main> :t smartWrap 
+    smartWrap :: Int -> String -> String
+    *Main> exampleInput <- readFile "testInput.txt"
+    *Main> putStrLn exampleInput 
+    In the beginning God created the heavens and the earth. Now the earth was
+    formless and empty, darkness was over the surface of the deep, and the Spirit of
+    God was hovering over the waters.
+    
+    And God said, "Let there be light," and there was light. God saw that the light
+    was good, and he separated the light from the darkness. God called the light
+    "day," and the darkness he called "night." And there was evening, and there was
+    morning - the first day.
+
+    *Main> putStrLn $ smartWrap 40 exampleInput 
+    In the beginning God created the heavens
+    and the earth. Now the earth was
+    formless and empty, darkness was over
+    the surface of the deep, and the Spirit
+    of God was hovering over the waters.
+    
+    And God said, "Let there be light," and
+    there was light. God saw that the light
+    was good, and he separated the light
+    from the darkness. God called the light
+    "day," and the darkness he called
+    "night." And there was evening, and
+    there was morning - the first day.
+    
+    *Main> putStrLn $ smartWrap 100 exampleInput 
+    In the beginning God created the heavens and the earth. Now the earth was formless and empty,
+    darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.
+    
+    And God said, "Let there be light," and there was light. God saw that the light was good, and he
+    separated the light from the darkness. God called the light "day," and the darkness he called
+    "night." And there was evening, and there was morning - the first day.
+    
+    *Main> putStrLn $ smartWrap 20 exampleInput 
+    In the beginning God
+    created the heavens
+    and the earth. Now
+    the earth was
+    formless and empty,
+    darkness was over
+    the surface of the
+    deep, and the Spirit
+    of God was hovering
+    over the waters.
+    
+    And God said, "Let
+    there be light," and
+    there was light. God
+    saw that the light
+    was good, and he
+    separated the light
+    from the darkness.
+    God called the light
+    "day," and the
+    darkness he called
+    "night." And there
+    was evening, and
+    there was morning -
+    the first day.
+    
